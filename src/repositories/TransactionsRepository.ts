@@ -46,7 +46,7 @@ class TransactionsRepository {
       },
     );
 
-    const total = outcome - income;
+    const total = income - outcome;
     return { outcome, income, total };
   }
 
